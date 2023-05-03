@@ -30,7 +30,7 @@
 		"prefix": "read",
 		"body": [
 			"sap.ui.core.BusyIndicator.show(0);",
-			"that.oDataModel.read('/$1Set()', {",
+			"that.oDataModel.read(`/$1Set()`, {",
 			"success: function(oData) {",
 			"   debugger",
 			"   sap.ui.core.BusyIndicator.hide(0);",
